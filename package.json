@@ -1,0 +1,13 @@
+{
+  "name": "mern-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix backend && npm start --backend",
+    "build": "npm run build --prefix backend && npm run build --frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
